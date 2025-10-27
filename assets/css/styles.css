@@ -1,0 +1,81 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    gap: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.left {
+    width: 35%;
+    background-color: #e8f4fd;
+    padding: 20px;
+}
+
+.right {
+    width: 65%;
+    padding: 20px 30px;
+}
+
+.left-h1-name {
+    color: #00a1ff;
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: #00a1ff;
+    font-size: 1.2em;
+    border-bottom: 2px solid #00a1ff;
+    padding-bottom: 3px;
+    margin-top: 25px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #00a1ff;
+    object-fit: cover;
+    display: block;
+    margin: 15px auto;
+}
+
+.info p {
+    margin: 8px 0;
+    font-size: 0.95em;
+}
+
+.info i {
+    color: #00a1ff;
+    margin-right: 6px;
+}
+
+.section ul {
+    margin: 0;
+    padding-left: 20px;
+}
+.activity p{
+    line-height: 2em;
+}
+.section ul li {
+    margin-bottom: 6px;
+    line-height: 2em;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.activity, 
+.project {
+    margin-bottom: 10px;
+}
