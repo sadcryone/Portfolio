@@ -31,8 +31,8 @@
     color: #00a1ff;
     margin-bottom: 5px;
 }
-
-h2 {
+.left-section h2,
+.right-section h2 {
     color: #00a1ff;
     font-size: 1.2em;
     border-bottom: 2px solid #00a1ff;
@@ -63,21 +63,21 @@ h2 {
     margin-right: 6px;
 }
 
-.section ul {
+.right-section ul {
     margin: 0;
     padding-left: 20px;
 }
 .activity p{
     line-height: 2em;
 }
-.section ul li {
+.right-section ul li {
     margin-bottom: 6px;
     margin-left: 30px;
 }
-.section p a:hover{
+.right-section p a:hover{
     color: red;
 }
-.section {
+.right-section {
     margin-bottom: 20px;
 }
 
