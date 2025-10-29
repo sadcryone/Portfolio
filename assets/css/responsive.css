@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+  .main{
+    display: flex;
+  }
+}
+@media (max-width: 480px) {
+.main{
+    display: block;
+    width: 100%;
+}
+.right,
+.left{
+    width: 100%;
+}
+}

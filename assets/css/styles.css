@@ -1,5 +1,5 @@
 * {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,17 +8,18 @@
 .main {
     max-width: 1200px;
     margin: 20px auto;
-    display: flex;
+    display:flex;
     gap: 20px;
     background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-radius: 20px 0px 20px 0px;
+    box-shadow: 0 10px 16px rgba(0,0,0,0.2);
 }
 
 .left {
     width: 35%;
-    background-color: #e8f4fd;
+    background: linear-gradient(to left bottom, #e8f4fd, #599fd4 );
     padding: 20px;
+    border-radius: 20px 0px 0px 0px;
 }
 
 .right {
@@ -40,15 +41,18 @@ h2 {
 }
 
 .profile-img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     border: 4px solid #00a1ff;
     object-fit: cover;
     display: block;
     margin: 15px auto;
 }
-
+.section-info-image-github{
+    width: 23px;
+    height: 18px;
+}
 .info p {
     margin: 8px 0;
     font-size: 0.95em;
@@ -68,9 +72,11 @@ h2 {
 }
 .section ul li {
     margin-bottom: 6px;
-    line-height: 2em;
+    margin-left: 30px;
 }
-
+.section p a:hover{
+    color: red;
+}
 .section {
     margin-bottom: 20px;
 }
@@ -78,4 +84,10 @@ h2 {
 .activity, 
 .project {
     margin-bottom: 10px;
+}
+.project li a{
+    color: violet;
+}
+.project li a:hover{
+    color: red;
 }
