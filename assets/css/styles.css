@@ -82,12 +82,14 @@
 }
 
 .activity, 
-.project {
+.right-project {
     margin-bottom: 10px;
 }
-.project li a{
+
+.right-project li a{
     color: violet;
 }
-.project li a:hover{
+.left-section p a:hover,
+.right-project li a:hover{
     color: red;
 }
